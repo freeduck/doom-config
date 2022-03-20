@@ -162,7 +162,6 @@
        ;;scala             ; java, but good
        (scheme +guile)   ; a fully conniving family of lisps
        (sh +powershell)    ; she sells {ba,z,fi}sh shells on the C xor
-======= end
        ;;sml
        solidity          ; do you need a blockchain? No.
        ;;swift             ; who asked for emoji variables?
