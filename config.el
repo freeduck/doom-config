@@ -6,8 +6,8 @@
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets.
-(setq user-full-name "John Doe"
-      user-mail-address "john@doe.com"
+(setq user-full-name "Kristian Nygaard Jensen"
+      user-mail-address "it@0071.se"
       ;; browse-url-browser-function 'browse-url-generic
       ;; browse-url-generic-program "palemoon"
       )
@@ -33,6 +33,8 @@
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
+(after! smartparens
+  (sp-use-smartparens-bindings))
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
